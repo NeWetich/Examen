@@ -20,3 +20,11 @@ Z:\ИСРПО\Examen\Examen\obj\Debug\Examen.csproj.CoreCompileInputs.cache
 Z:\ИСРПО\Examen\Examen\obj\Debug\Examen.csproj.CopyComplete
 Z:\ИСРПО\Examen\Examen\obj\Debug\Examen.exe
 Z:\ИСРПО\Examen\Examen\obj\Debug\Examen.pdb
+Z:\ИСРПО\Examen\Examen\bin\Debug\Database.mdf
+Z:\ИСРПО\Examen\Examen\bin\Debug\Database_log.ldf
+Z:\ИСРПО\Examen\Examen\bin\Debug\EntityFramework.dll
+Z:\ИСРПО\Examen\Examen\bin\Debug\EntityFramework.SqlServer.dll
+Z:\ИСРПО\Examen\Examen\bin\Debug\EntityFramework.xml
+Z:\ИСРПО\Examen\Examen\bin\Debug\EntityFramework.SqlServer.xml
+Z:\ИСРПО\Examen\Examen\bin\Debug\ru\EntityFramework.resources.dll
+Z:\ИСРПО\Examen\Examen\obj\Debug\Examen_Content.g.cs
