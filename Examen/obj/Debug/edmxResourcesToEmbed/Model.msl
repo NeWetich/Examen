@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="Хранилище DatabaseModelContainer" CdmEntityContainer="DatabaseEntities">
+    <EntitySetMapping Name="CashBoxes">
+      <EntityTypeMapping TypeName="DatabaseModel.CashBox">
+        <MappingFragment StoreEntitySet="CashBox">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="Money" ColumnName="Money" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>
