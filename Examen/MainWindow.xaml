@@ -8,10 +8,10 @@
         mc:Ignorable="d"
         Title="" Height="348.592" Width="689.537">
     <Grid>
-        <Button Content="Внести" HorizontalAlignment="Left" Margin="121,79,0,0" VerticalAlignment="Top" Width="166" Height="32" Background="#FFFDFD07" Foreground="#DD000000" BorderBrush="#FFB1B73A" Click="InsertClick"/>
-        <TextBox HorizontalAlignment="Left" Height="32" Margin="324,79,0,0" TextWrapping="Wrap" materialDesign:HintAssist.Hint="Введите сумму" VerticalAlignment="Top" Width="240" FontSize="14"/>
-        <TextBox HorizontalAlignment="Left" Height="36" Margin="212,177,0,0" TextWrapping="Wrap" Text="Денег в кассе:" VerticalAlignment="Top" Width="98" FontSize="14" CaretBrush="#FF060606"/>
-        <TextBox HorizontalAlignment="Left" Height="36" Margin="324,177,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="240"/>
+        <Button Content="Внести" HorizontalAlignment="Left" Margin="121,79,0,0" VerticalAlignment="Top" Width="166" Height="32" Background="#FFFDFD07" Foreground="#DD000000" BorderBrush="#FFB1B73A" Click="Insert_Click"/>
+        <TextBox x:Name="sum" HorizontalAlignment="Left" Height="32" Margin="324,79,0,0" TextWrapping="Wrap" materialDesign:HintAssist.Hint="Введите сумму" VerticalAlignment="Top" Width="240" FontSize="14"/>
+        <TextBlock HorizontalAlignment="Left" Margin="198,185,0,0" TextWrapping="Wrap" Text="Денег в кассе:" VerticalAlignment="Top" Width="100" Height="29" FontSize="14"/>
+        <TextBlock x:Name="cashbox" HorizontalAlignment="Left" Margin="303,185,0,0" TextWrapping="Wrap" Text=" " VerticalAlignment="Top" Width="212" Height="29" FontSize="14"/>
 
     </Grid>
 </Window>

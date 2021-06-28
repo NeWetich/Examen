@@ -19,15 +19,16 @@ namespace Examen
     /// Логика взаимодействия для MainWindow.xaml
     /// </summary>
     public partial class MainWindow : Window
-    {
+    {       
         public MainWindow()
         {
             InitializeComponent();
+            cashbox.Text = Convert.ToString(0);
         }
 
         private void Insert_Click(object sender, RoutedEventArgs e)
         {
-            
+            cashbox.Text = sum.Text;
         }
     }
 }
